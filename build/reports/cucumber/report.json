@@ -1,0 +1,264 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "have access to WhoDo",
+            "match": {
+              "location": "runner.MyStepdefsWhoDoCreate.haveAccessToWhoDo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T19:30:29.041Z",
+        "line": 7,
+        "name": "create file",
+        "description": "",
+        "id": "whodo;create-file",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27377000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click \"+\" button in main screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"+\"",
+                  "offset": 6
+                }
+              ],
+              "location": "runner.MyStepdefsWhoDoCreate.clickButtonInMainScreen(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4961000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "fill \"title\" textbox with \"VALOR1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"title\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"VALOR1\"",
+                  "offset": 26
+                }
+              ],
+              "location": "runner.MyStepdefsWhoDoCreate.fillTextboxWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3340000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "fill \"notes\" textbox with \"Nota del VALOR1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"notes\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"Nota del VALOR1\"",
+                  "offset": 26
+                }
+              ],
+              "location": "runner.MyStepdefsWhoDoCreate.fillTextboxWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1219000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click \"save\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"save\"",
+                  "offset": 6
+                }
+              ],
+              "location": "runner.MyStepdefsWhoDoCreate.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 530000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "contact \"VALOR1\" should be created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VALOR1\"",
+                  "offset": 8
+                }
+              ],
+              "location": "runner.MyStepdefsWhoDoCreate.contactShouldBeCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TF"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "have access to WhoDo",
+            "match": {
+              "location": "runner.MyStepdefsWhoDoCreate.haveAccessToWhoDo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-15T19:31:06.743Z",
+        "line": 15,
+        "name": "update file",
+        "description": "",
+        "id": "whodo;update-file",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1934000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click in the record",
+            "match": {
+              "location": "runner.MyStepdefsWhoDoUpdate.clickInTheRecord()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3186000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i modify the text \"note\" with \"MODIFICACION DE LA NOTA VALOR1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"note\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"MODIFICACION DE LA NOTA VALOR1\"",
+                  "offset": 30
+                }
+              ],
+              "location": "runner.MyStepdefsWhoDoUpdate.iModifyTheTextWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2651000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click \"save\" button update",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"save\"",
+                  "offset": 6
+                }
+              ],
+              "location": "runner.MyStepdefsWhoDoUpdate.clickButtonUpdate(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the note \"MODIFICACION DE LA NOTA VALOR1\" should be created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MODIFICACION DE LA NOTA VALOR1\"",
+                  "offset": 9
+                }
+              ],
+              "location": "runner.MyStepdefsWhoDoUpdate.theNoteShouldBeCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TF"
+          }
+        ]
+      }
+    ],
+    "name": "WhoDo",
+    "description": "",
+    "id": "whodo",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/WhoDo.feature",
+    "tags": [
+      {
+        "name": "@TF",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
